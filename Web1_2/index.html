@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web page</title>
+        <style>
+            #header {
+                height: 120px;
+                background-color: yellow;
+            }
+            body {
+                margin: 0;
+                padding: 10px 0;
+                background-color: #E3F2FD;
+                }
+
+                h3 {
+                text-align: center;
+                }
+
+                #wrap {
+                margin: 0 auto;
+                padding: 10px 0;
+                width: 700px;
+                background-color: #90caf9;
+                }
+
+                .area {
+                margin: 0;
+                padding: 0;
+                display: block;
+                height: 30px;
+                text-align: justify;
+                overflow: hidden;
+                }
+
+                .area:after {
+                display: inline-block;
+                width: 99%;
+                height: 0px;
+                content: '';
+                }
+
+                li {
+                display: inline-block;
+                list-style: none;
+                }
+
+                li.item {
+                border: 1px solid #0d48a1;
+                background-color: #1565c0;
+                color: #fff;
+                text-align: center;
+                line-height: 30px;
+                }
+
+                li.blank {
+                width: 0;
+                height: 0;
+                }
+        </style>
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="wrap">
+                <h3> 2개 </h3>
+                <ul class="area">
+                  <li class="blank"></li>
+                  <li class="item">내용내용</li>
+                  <li class="item">내용내용</li>
+                  <li class="blank"></li>
+                </ul>
+              
+                <h3> 3개 </h3>
+                <ul class="area">
+                  <li class="blank"></li>
+                  <li class="item">내용내용</li>
+                  <li class="item">내용내용</li>
+                  <li class="item">내용내용</li>
+                  <li class="blank"></li>
+                </ul>
+              
+                <h3> 4개 </h3>
+                <ul class="area">
+                  <li class="blank"></li>
+                  <li class="item">내용내용</li>
+                  <li class="item">내용내용</li>
+                  <li class="item">내용내용</li>
+                  <li class="item">내용내용</li>
+                  <li class="blank"></li>
+                </ul>
+              
+                <h3> 내용이 긴 경우 </h3>
+                <ul class="area">
+                  <li class="blank"></li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="item">내용내용내용내용내용내용</li>
+                  <li class="blank"></li>
+                </ul>
+              </div>
+
+            <!-- <ul class="area">
+                <li class="header_a">How it works</li>
+                <li class="header_a">Gifts</li>
+                <li class="header_a">About</li>
+                <li class="header_a">Login</li>
+                <li class="header_a">Members</li>
+                <li class="header_a">Contacts</li>
+            </ul> -->
+            <!-- <a id="header_a">How it works</a>
+            <a id="header_a">Gifts</a> 
+            <a id="header_a">About</a> 
+            <a id="header_a">Login</a> 
+            <a id="header_a">Members</a> 
+            <a id="header_a">Contacts</a>  -->
+        </div>        
+    </body>
+</html>

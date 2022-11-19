@@ -3,9 +3,24 @@
     <head>
         <title>About</title>
 
-        <style>     
-        
-            
+        <style>   
+          /* Area 1  */
+            #top {              
+                display: inline;
+                width: 1000px;
+                height: 500px;
+            }
+            #top .top_left {
+                display: inline-block;
+                width: 750px;
+                height: 500px;
+            }
+            #top .top_right {
+                display: inline-block;
+                width: 250px;
+                height: 500px;
+                background-color: blue;
+            }
         </style>
     </head>
 
@@ -14,6 +29,17 @@
 
     <body>
       <!-- area 1 -->
+      <div id="top">
+        <!-- html 코드상 개행은 blank 한칸을 유발함  -->
+        <div class="top_left">
+            <img style="display: block;" src="Resource_1_02/chef_about.png" alt="">
+        </div><div class="top_right">
+            <img style="display: block;" src="Resource_1_02/right1.png">
+            <img style="display: block;" src="Resource_1_02/right2.png">            
+        </div>
+        
+      </div>
       
+
     </body>
 </html>

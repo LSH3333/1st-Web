@@ -3,29 +3,40 @@
     <head>
         <title>Combinator Selector</title>
         <style>
-            .box-1, .box-2, .box-3 {
-                width:200px;
-                height: 200px;
-                color: white;
-            }
-            .box-1 {
+            #top {
+                width: 1000px;
+                height: 500px;
                 background-color: red;
-                padding:20px;
-                box-sizing: border-box;
             }
-            .box-2 {
+            .top_left {
+                border-top: 1px solid transparent;
+                display: inline-block;
+                width: 750px;
+                height: 500px;
                 background-color: blue;
             }
-            .box-3 {
-                background-color: green;
-                padding: 20px;
+            .top_left div {
+                margin-top: 250px;
+                background-color: yellow;
+                width: 250px;
+                height: 250px;
             }
+            .top_right {
+                display: inline-block;
+                width: 250px;
+                height: 500px;
+                background-color: green;
+            }
+            
+            
         </style>
     </head>
 
     <body>
-        <div class="box-1">I'm with border-box</div>
-        <div class="box-2">I'm with normal</div>
-        <div class="box-3">I'm without border-box</div>
+        <div id="top">
+            <div class="top_left"><div></div></div><div class="top_right"></div>
+        </div>
+    
+
     </body>
 </html>

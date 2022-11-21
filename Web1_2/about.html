@@ -6,15 +6,24 @@
         <style>   
           /* Area 1  */
             #top {              
-                display: inline;
+                display: block;
                 width: 1000px;
                 height: 500px;
             }
             #top .top_left {
                 display: inline-block;
+                background-color: red;
                 width: 750px;
                 height: 500px;
+                background: url(./Resource_1_02/chef_about.png);
             }
+            #top .top_left div {
+                width:250px; 
+                height: 250px;
+                margin-top: 250px;
+                background-color: rgba(0, 128, 0, 0.5);
+            }
+
             #top .top_right {
                 display: inline-block;
                 width: 250px;
@@ -32,7 +41,9 @@
       <div id="top">
         <!-- html 코드상 개행은 blank 한칸을 유발함  -->
         <div class="top_left">
-            <img style="display: block;" src="Resource_1_02/chef_about.png" alt="">
+            <div>
+                <!-- GLOBAL BUSINESS -->
+            </div>
         </div><div class="top_right">
             <img style="display: block;" src="Resource_1_02/right1.png">
             <img style="display: block;" src="Resource_1_02/right2.png">            

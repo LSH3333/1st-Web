@@ -1,57 +1,44 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title></title>
+        <style>
+            #top {
+                width: 1000px;
+                height: 500px;
+                background-color: red;
+            }
+            .top_left {
+                border-top: 1px solid transparent;
+                display: inline-block;
+                width: 750px;
+                height: 500px;
+                background-color: blue;
+            }
+            .top_left div {
+                margin-top: 250px;
+                background-color: yellow;
+                width: 250px;
+                height: 250px;
+            }
+            .top_right {
+                display: inline-block;
+                width: 250px;
+                height: 500px;
+                background-color: green;
+            }
+            
+        </style>
+    </head>
 
-<head>
-    <style>
-        .ex-layout {
-            height: 310px
-        }
-
-        .menu {
-            width: 300px;
-            height: 40px;
-            border: 2px solid #09c;
-            background-color: #d7f5ff;
-        }
-
-        .main .left-menu {
-            float: left;
-            width: 50px;
-            height: 254px;
-            border: 2px solid red;
-            background-color: #ffe7d5;
-        }
-
-        .main .content {
-            float: left;
-            width: 250px;
-            height: 250px;
-        }
-
-        .main .content .article {
-            height: 200px;
-            border: 2px solid blue;
-            background-color: #e2e9ff;
-        }
-
-        .main .content .comment {
-            height: 50px;
-            border: 2px solid purple;
-            background-color: #ffddff;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="ex-layout">
-        <div class="menu">global menu</div>
-        <div class="main">
-            <div class="left-menu">left menu</div>
-            <div class="content">
-                <div class="article">article</div>
-                <div class="comment">comment</div>
-            </div>
+    <body>
+        <div id="top">
+            <div class="top_left">
+                <div>
+                    hello world!
+                </div>
+            </div><div class="top_right"></div>                        
         </div>
-    </div>
-</body>
-
+       
+    </body>
 </html>

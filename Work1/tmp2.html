@@ -14,6 +14,13 @@
                 width: 750px;
                 height: 500px;
                 background-color: blue;
+                /* 
+                    Adding the text creates a baseline for the #parentwrap div, 
+                    so the div gets aligned to that. Without the text, 
+                    there's no baseline so the div takes a fallback layout mode.
+                    To fix, set add #parentwrap { vertical-align:top; }
+                 */
+                vertical-align: top;
             }
             .top_left div {
                 margin-top: 250px;
@@ -34,7 +41,7 @@
 
     <body>
         <div id="top">
-            <div class="top_left"><div></div></div><div class="top_right"></div>
+            <div class="top_left"><div>a</div></div><div class="top_right"></div>
         </div>
     
 

@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About</title>
-
-        <style>   
-          /* Area 1  */
-            #top {              
-                display: block;
+        <title>about.html</title>
+        <style>
+            #top {
                 width: 1000px;
                 height: 500px;
-            }
-            #top .top_left {
-                display: inline-block;
                 background-color: red;
+            }
+            .top_left {
+                border-top: 1px solid transparent;
+                display: inline-block;
                 width: 750px;
                 height: 500px;
+                background-color: blue;
                 background: url(./Resource_1_02/chef_about.png);
+                /* 
+                    Adding the text creates a baseline for the #parentwrap div, 
+                    so the div gets aligned to that. Without the text, 
+                    there's no baseline so the div takes a fallback layout mode.
+                    To fix, set add #parentwrap { vertical-align:top; }
+                 */
+                vertical-align: top;
             }
-            #top .top_left div {
-                width:250px; 
-                height: 250px;
+            .top_left div {
                 margin-top: 250px;
                 background-color: rgba(0, 128, 0, 0.5);
+                width: 250px;
+                height: 250px;
             }
-
-            #top .top_right {
+            .top_left div p {
+                font-weight: 1000;
+                text-align: center;
+            }
+            .top_right {
                 display: inline-block;
                 width: 250px;
                 height: 500px;
-                background-color: blue;
+                background-color: green;
             }
+            
+            
         </style>
     </head>
 
-
-
-
     <body>
-      <!-- area 1 -->
-      <div id="top">
-        <!-- html 코드상 개행은 blank 한칸을 유발함  -->
-        <div class="top_left">
-            <div>
-                <!-- GLOBAL BUSINESS -->
-            </div>
-        </div><div class="top_right">
-            <img style="display: block;" src="Resource_1_02/right1.png">
-            <img style="display: block;" src="Resource_1_02/right2.png">            
+        <div id="top">
+            <div class="top_left">
+                <div><p>GLOBAL BUSINESS</p></div></div><div class="top_right">
+                    <img style="display: block;" src="Resource_1_02/right1.png">
+                    <img style="display: block;" src="Resource_1_02/right2.png">            
+                </div>
         </div>
-        
-      </div>
-      
+    
 
     </body>
 </html>

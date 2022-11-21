@@ -3,17 +3,16 @@
     <head>
         <title>about.html</title>
         <style>
+            /* Area 1 */
             #top {
                 width: 1000px;
                 height: 500px;
-                background-color: red;
             }
             .top_left {
-                border-top: 1px solid transparent;
+                /* border-top: 1px solid transparent; */
                 display: inline-block;
                 width: 750px;
                 height: 500px;
-                background-color: blue;
                 background: url(./Resource_1_02/chef_about.png);
                 /* 
                     Adding the text creates a baseline for the #parentwrap div, 
@@ -24,7 +23,7 @@
                 vertical-align: top;
             }
             .top_left div {
-                border-top: 1px solid transparent;
+                /* border-top: 1px solid transparent; */
                 margin-top: 250px;                
                 background-color: rgba(0, 128, 0, 0.5);
                 width: 250px;
@@ -42,14 +41,48 @@
                 display: inline-block;
                 width: 250px;
                 height: 500px;
-                background-color: green;
             }
             
-            
+            /* Area 2 */
+            #box_all {
+                width: 1000px;
+                height: 500px;
+                background-color: blue;                         
+            }
+
+            #box_all .box_left {                
+                display: inline-block;
+                vertical-align: top;       
+                width: 750px;
+                height: 500px;
+                background-color: brown;
+            }
+            #box_all .box_left div:nth-child(2n) {
+                width: 250px;
+                height: 250px;
+                background-color:aqua;
+                float: left;
+            }
+            #box_all .box_left div:nth-child(2n+1) {
+                float:left;
+                width: 250px;
+                height: 250px;
+                background-color:darkorchid;
+            }
+
+            #box_all .box_right {
+                display: inline-block;
+                width: 250px;
+                height: 500px;
+                background-color: yellow;
+            }
+
+
         </style>
     </head>
 
     <body>
+        <!-- Area 1 -->
         <div id="top">
             <div class="top_left">
                 <div><p>
@@ -61,6 +94,12 @@
                 </div>
         </div>
     
+        <div id="box_all">
+            <div class="box_left">
+                <div></div><div></div><div></div><div></div><div></div><div></div>
+            </div><div class="box_right">
+            </div>
+        </div>
 
     </body>
 </html>

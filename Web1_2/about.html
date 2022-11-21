@@ -24,14 +24,19 @@
                 vertical-align: top;
             }
             .top_left div {
-                margin-top: 250px;
+                border-top: 1px solid transparent;
+                margin-top: 250px;                
                 background-color: rgba(0, 128, 0, 0.5);
                 width: 250px;
                 height: 250px;
             }
-            .top_left div p {
+            .top_left div > p {
+                margin-left: 30px;
+                margin-right: 30px;
+                margin-top: 25px;
                 font-weight: 1000;
-                text-align: center;
+                font-size: larger;
+                text-align: left;            
             }
             .top_right {
                 display: inline-block;
@@ -47,7 +52,10 @@
     <body>
         <div id="top">
             <div class="top_left">
-                <div><p>GLOBAL BUSINESS</p></div></div><div class="top_right">
+                <div><p>
+                    GLOBAL<br>BUSINESS
+                </p><p style="font-size: medium;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quasi!</p></div>
+                </div><div class="top_right">
                     <img style="display: block;" src="Resource_1_02/right1.png">
                     <img style="display: block;" src="Resource_1_02/right2.png">            
                 </div>

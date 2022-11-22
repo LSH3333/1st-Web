@@ -61,13 +61,23 @@
                 width: 250px;
                 height: 250px;
                 background-color:rgba(230,128,67,255);
-                float: left;
+                float: left;                
             }
             #box_all .box_left div:nth-child(2n+1) {
                 float:left;
                 width: 250px;
                 height: 250px;
-                background-color: rgba(108,95,77,255);
+                background-color: rgba(108,95,77,255);                
+            }
+            #box_all .box_left div p:nth-child(1) {
+                margin: 10px 10px 0px 10px;
+                font-weight: 900;
+                font-size: large;
+            }             
+            #box_all .box_left div p:nth-child(2) {
+                margin: 10px 10px 0px 10px;
+                font-weight: 900;
+                font-size: small;
             }
 
             #box_all .box_right {
@@ -75,6 +85,11 @@
                 width: 250px;
                 height: 500px;
                 background-color: yellow;
+            }
+            #box_all .box_right p {
+                margin: 10px 10px 0px 10px;
+                font-weight: 900;
+                font-size: small;
             }
 
 
@@ -96,13 +111,14 @@
     
         <div id="box_all">
             <div class="box_left">
-                <div>a</div>
-                <div>a</div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div><p>TITLE</p><p style="margin-top: 0px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, ipsam.</p></div>
+                <div><p>TITLE</p><p style="margin-top: 0px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, ipsam.</p></div>
+                <div><p style="font-size: small">3</p></div>
+                <div><p style="font-size: small">4</p></div>
+                <div><p style="font-size: small">5</p></div>
+                <div><p style="font-size: small">6</p></div>
             </div><div class="box_right">
+                <p>7</p>
             </div>
         </div>
 

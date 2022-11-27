@@ -8,26 +8,26 @@
             #header {
               height: 120px;
             }
-            #header ul li {
-              list-style: none;
-              float: left;
-              text-align: center;
-            }
-            #header .link {
-              width: 190px;
-              text-decoration: none;
-              display: block;
+            #header .menu {
+              display: inline-block;
+              margin-top:27px;
+              margin-left: 60px;
+              margin-right:60px;
               font-weight: bold;
-              margin-top: 27px;
               color: black;
             }
             #header .img {
+              display: inline-block;
+              padding-top:33px;
               margin-top: 0px;
+              margin-left: 20px;
+              margin-right:20px;
             }
-            #header .link:hover {
+            #header .menu:hover {
               color: red;
               text-decoration: underline;
-            }
+            } 
+            
 
             /* Area 2 */
             #main_picture {
@@ -100,22 +100,19 @@
     </head>
 
 
-
-
     <body>
       <!-- area 1 -->
-        <div id="header">                    
-            <ul>
-              <li><a class="link" href="#">How it works</a></li>
-              <li><a class="link" href="#">Gifts</a></li>
-              <li><a class="link" href="about.html">About</a></li>
-              <li><img class="img" src="Resource_1_02/logo.png"></li>
-              <li><a class="link" href="#">Login</a></li>
-              <li><a class="link" href="#">Members</a></li>
-              <li><a class="link" href="#">Contacts</a></li>
-            </ul>
-        </div>        
-
+      <div id="header">
+        <div class="menu">How it works</div>
+        <div class="menu">Gifts</div>
+        <div class="menu">About</div>
+        <img class="img" src="Resource_1_02/logo.png">
+        <div class="menu">Login</div>
+        <div class="menu">Members</div>
+        <div class="menu">Contacts</div>
+      </div>
+      
+        
         <!-- area 2 -->
         <div id="main_picture">
           <img src="Resource_1_02/main.png">
@@ -150,14 +147,13 @@
         <!-- area 4 -->
         <div class="chefs">
           <div>
-            <!-- a -->
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Laborum dicta dignissimos totam alias pariatur veritatis praesentium ducimus harum delectus tempore.
             </p>
             <img src="Resource_1_02/chef.png">
-          </div>
-            
+          </div>            
         </div>
+        
     </body>
 </html>

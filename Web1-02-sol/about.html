@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        img {
+            display: block;
+            border: none;
+        }
+        body {
+            font-size:14px;
+            line-height: 23px;
+            font-family: '맑은고딕', 'Arial';
+            color: black;
+        }
+
+        #top {
+            width:1000px;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-top: 30px;
+            background-color: yellow;
+            height: 500px;
+        }
+        .top_left {
+            width:750px;
+            height: 500px;
+            float:left;
+            overflow: hidden;
+            background-color: orange;
+            background-image: url("chef_about.png");
+        }
+        .top_right {
+            width: 250px;
+            height: 500px;
+            /* float: left; */
+            overflow: hidden;
+            background-color: violet;
+        }
+        .top_box {
+            width:210px;
+            height: 210px;
+            padding:20px;
+            margin-top:250px;
+            background-color: #386d0dc8;
+            overflow: hidden;
+        }
+
+        #box_all {
+            width: 1000px;
+            overflow: hidden;
+            margin: 0px auto;
+            height: 500px;
+            background-color: blue;
+        }
+        .box_left {
+            width:750px;
+            height: 500px;
+            float:left;
+            overflow: hidden;
+            background-color: wheat;            
+        }
+        .box_right {
+            width:210px;
+            height: 460px;
+            padding:20px;
+            float: left;
+            overflow: hidden;
+            background-color: brown;
+        }
+        .box {
+            width: 210px;
+            height: 210px;
+            padding: 20px;
+            float: left;
+            overflow: hidden;
+        }
+        .box:nth-child(2n) {
+            background-color: #e68243;
+        }
+        .box:nth-child(2n+1) {
+            background-color: #6e5f4e;
+        }
+        
+
+        /* footer  */
+        #footer {
+            width: 1000px;
+            overflow: hidden;
+            margin: 0 auto;
+            background-color: pink;
+            height: 40px;
+        }
+        .f_left {
+            width: 750px;
+            height: 40px;
+            float: left;
+            background-color: gray;
+        }
+        .f_left ul {
+            overflow: hidden;
+            margin-left: 20px;
+        }
+        .f_left li {
+            float:left;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 12px;
+            line-height: 40px;
+        }
+        .f_left li:nth-child(2n) {
+            color: darkorange;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div id="top">
+        <div class="top_left">
+            <div class="top_box">
+                <h2>GLOBAL<br>BUSINESS</h2>
+                <p>
+                    <br>Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    <br>Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
+        </div>
+        <div class="top_right">
+            <img src="right1.png">
+            <img src="right2.png">
+        </div>
+    </div>
+
+    <div id="box_all">
+        <div class="box_left">
+            <div class="box">
+                <h2>TITLE</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, odio?
+            </div>
+            <div class="box">
+                <h2>TITLE</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, odio?
+            </div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <div class="box_right"></div>
+    </div>
+
+    <div id="footer">
+        <div class="f_left">
+            <ul>
+                <li>법적고지</li>
+                <li>|</li>
+                <li>이메일무단수집거부</li>
+                <li>|</li>
+                <li>이용약관</li>
+                <li>|</li>
+                <li>개인정보취급방침</li>
+                <li>|</li>
+                <li>고객센터</li>
+                <li>|</li>
+                <li>입찰공고</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

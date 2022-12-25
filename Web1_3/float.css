@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#base {
+  width: 1000px;
+  height: 500px;
+  margin: 30px auto 0px;
+  background-color: lightgray;
+}
+
+#base .lbase {
+  width: 460px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #7fffd4;
+  float: left;
+}
+
+#base .rbase {
+  width: 460px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffd700;
+  float: left;
+}
+
+.div1 {
+  background-color: #6495ed;
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+}

@@ -34,3 +34,49 @@
   height: 130px;
   padding: 10px;
 }
+
+#base .lbase_div {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: #ffa07a;
+}
+
+#base .rbase_div {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: #ffa07a;
+  float: left;
+}
+
+.div_odd {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid red;
+  float: left;
+}
+
+.div_even {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid blue;
+  float: right;
+}
+
+.div_inherit {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid red;
+  float: inherit;
+}
+
+.div7 {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  background-color: #ba55d3;
+}

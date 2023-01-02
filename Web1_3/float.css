@@ -8,6 +8,7 @@
   height: 500px;
   margin: 30px auto 0px;
   background-color: lightgray;
+  /* border: 1px solid black; */
 }
 
 #base .lbase {
@@ -15,8 +16,8 @@
   height: 460px;
   margin: 10px;
   padding: 10px;
-  background-color: #7fffd4;
-  float: left;
+  background-color: #7FFFD4;
+  float:left;
 }
 
 #base .rbase {
@@ -24,30 +25,30 @@
   height: 460px;
   margin: 10px;
   padding: 10px;
-  background-color: #ffd700;
+  background-color: #FFD700;
   float: left;
 }
 
 .div1 {
-  background-color: #6495ed;
-  width: 130px;
+  width:130px;
   height: 130px;
   padding: 10px;
+  background-color: #6495ED;
 }
 
-#base .lbase_div {
+#base .lbase .lbase_div {
   width: 80px;
   height: 80px;
   padding: 10px;
-  background-color: #ffa07a;
+  background-color: #FFA07A;
 }
 
-#base .rbase_div {
+#base .rbase .rbase_div {
   width: 80px;
   height: 80px;
   padding: 10px;
-  background-color: #ffa07a;
-  float: left;
+  background-color: #FFA07A;
+  float:left;
 }
 
 .div_odd {
@@ -55,7 +56,7 @@
   height: 80px;
   padding: 10px;
   border: 2px solid red;
-  float: left;
+  float:left;
 }
 
 .div_even {
@@ -63,7 +64,7 @@
   height: 80px;
   padding: 10px;
   border: 2px solid blue;
-  float: right;
+  float:right;
 }
 
 .div_inherit {
@@ -71,12 +72,12 @@
   height: 80px;
   padding: 10px;
   border: 2px solid red;
-  float: inherit;
+  float:inherit;
 }
 
 .div7 {
   width: 130px;
   height: 130px;
   padding: 10px;
-  background-color: #ba55d3;
+  background-color: #BA55D3;
 }

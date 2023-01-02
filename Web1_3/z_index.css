@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#base {
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: lightgray;
+}
+
+.lbase {
+    width: 480px;
+    height: 480px;
+    margin: 10px;
+    background-color: darkgray;
+    float: left;
+    position: relative;
+}

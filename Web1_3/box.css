@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#base {
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: lightgray;
+}
+
+.lbase {
+    width: 480px;
+    height: 480px;
+    margin:10px;
+    float:left;
+    background-color: darkgray;
+}
+
+.rbase {
+    width: 480px;
+    height: 480px;
+    margin:10px;
+    float:left;
+    background-color: darkgray;
+    position: relative;
+}
+
+/* /////////////////////// */
+.lbase .div1 {
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: pink;
+}
+
+.lbase .div2 {
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: #7FFFD4;
+}
+
+.lbase .div3 {
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: #87CEFA;
+}
+
+.lbase .div4 {
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: #FF00FF;
+}
+
+/* /////////////////////// */
+.rbase .div1 {
+    width: 240px;
+    height: 240px;
+    background-color: pink;
+}
+
+.rbase .div2 {
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    position: relative;
+    top:-240px;
+    left:240px;
+    background-color: #7FFFD4;
+}
+
+.rbase .div3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    position: absolute;
+    top:240px;
+    border:10px dashed #1E90FF;
+    background-color: #87CEFA;
+}
+
+.rbase .div4 {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top:-230px;
+    left:240px;
+    border:10px dotted #9932CC;
+    background-color: #FF00FF;
+}

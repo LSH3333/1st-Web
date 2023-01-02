@@ -49,6 +49,26 @@
   padding: 10px;
   background-color: deepskyblue;
   position: relative;
-  /* top: -100px;
-  left: 100px; */
+  top: -100px;
+  left: 100px;
+}
+
+.div3 {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: #fa8072;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+}
+
+.div4 {
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  background-color: violet;
+  position: fixed;
+  top: 340px;
+  left: 450px;
 }

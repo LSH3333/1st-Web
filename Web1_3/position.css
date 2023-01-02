@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#base {
+  width: 1000px;
+  height: 500px;
+  margin: 50px 0px 0px 50px;
+  background-color: lightgray;
+}
+
+.lbase {
+  width: 480px;
+  height: 480px;
+  margin: 10px;
+  background-color: #7fffd4;
+  float: left;
+}
+
+.rbase {
+  width: 480px;
+  height: 480px;
+  margin: 10px;
+  background-color: #ffd700;
+  float: left;
+}
+
+.div1 {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: darkorange;
+}
+
+.div2_l {
+  width: 360px;
+  height: 360px;
+  padding: 10px;
+  background-color: deepskyblue;
+  position: static;
+  top: -100px;
+  left: 100px;
+}
+
+.div2_r {
+  width: 360px;
+  height: 360px;
+  padding: 10px;
+  background-color: deepskyblue;
+  position: relative;
+  /* top: -100px;
+  left: 100px; */
+}

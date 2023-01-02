@@ -18,3 +18,78 @@
     float: left;
     position: relative;
 }
+
+.rbase {
+    width: 480px;
+    height: 480px;
+    margin: 10px;
+    background-color: darkgray;
+    float:left;
+    position: relative;
+}
+
+.lbase .div1 {
+    width: 230px;
+    height: 230px;    
+    padding:10px;
+    position: relative;
+    top:50px;
+    left:60px;    
+    background-color: #6495ED;
+    z-index: 1;
+}
+
+.lbase .div2 {
+    width: 230px;
+    height: 230px;    
+    padding:10px;
+    position: absolute;
+    top:130px;
+    left:190px;
+    background-color: #90EE90;;
+    z-index: 2;
+}
+
+.lbase .div3 {
+    width: 230px;
+    height: 230px;    
+    padding:10px;
+    position: fixed;
+    top:250px;
+    left:180px;
+    background-color: #F4A460;
+    z-index: 3;
+}
+
+.rbase .div1 {
+    width: 230px;
+    height: 230px;    
+    padding:10px;
+    position: relative;
+    top:50px;
+    left:60px;    
+    background-color: #6495ED;
+    z-index: 3;
+}
+
+.rbase .div2 {
+    width: 230px;
+    height: 230px;    
+    padding:10px;
+    position: absolute;
+    top:130px;
+    left:190px;
+    background-color: #90EE90;;
+    z-index: 1;
+}
+
+.rbase .div3 {
+    width: 230px;
+    height: 230px;    
+    padding:10px;
+    position: fixed;
+    top:250px;
+    left:680;
+    background-color: #F4A460;
+    z-index: 2;
+}

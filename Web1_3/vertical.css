@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#base {
+  width: 1000px;
+  height: 500px;
+  margin: 50px auto;
+  background-color: lightgray;
+}
+
+.base1 {
+  width: 210px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgray;
+  float: left;
+}
+
+.base2 {
+  width: 210px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgray;
+  float: left;
+}
+
+.base3 {
+  width: 210px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgray;
+  float: left;
+}
+
+.base4 {
+  width: 210px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgray;
+  float: left;
+}
+
+/* /////////////////////  */
+.base1 .ul1 li {
+  width: 150px;
+  padding: 10px;
+  background-color: beige;
+}
+
+.base1 .ul2 {
+  list-style: none;
+}
+
+.base1 .ul2 a {
+  display: block;
+  width: 190px;
+  padding: 10px;
+  background-color: gold;
+}
+
+.base1 .ul2 a:hover {
+  color: red;
+}
+
+/* ///////// base2 ////////////  */
+.base2 > ul {
+  list-style: none;
+  background-color: #7fffd4;
+}
+
+.base2 > ul > li {
+  padding: 20px 30px;
+}
+
+.base2 > ul > li:hover {
+  background-color: #006400;
+  color: white;
+}
+
+/* ///////// base3 ////////////  */
+.base3 ul {
+  list-style-type: none;
+}
+
+.base3 ul a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  background-color: #e0ffff;
+  color: darkblue;
+}
+
+.base3 ul a.active {
+  background-color: #7b68ee;
+  color: white;
+}
+
+.base3 ul a:hover:not(.active) {
+  background-color: #191970;
+  color: #f0f8ff;
+}
+
+/* ///////// base4 ////////////  */
+.base4 ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.base4 > ul > li {
+  background-color: #f4a460;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.base4 > ul > li:hover {
+  background-color: salmon;
+  columns: #800000;
+  cursor: pointer;
+}
+
+/* sub */
+.base4 > ul > li > ul.sub {
+  display: none;
+  background-color: lightpink;
+}
+
+/* .base4>ul>li 를 hover 하면 .sub에 대하여 실행  */
+.base4 > ul > li:hover .sub {
+  display: block;
+}
+
+.base4 > ul > li > ul.sub > li:hover {
+  background-color: #800000;
+  color: white;
+}

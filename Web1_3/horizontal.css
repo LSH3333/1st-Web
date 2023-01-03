@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+    line-height: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#base {
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.lbase {
+    width: 480px;
+    height: 480px;
+    padding: 10px;
+    float: left;
+    background-color: #f5f5dc;
+}
+
+.rbase {
+    width: 480px;
+    height: 480px;
+    padding: 10px;
+    float: left;
+    background-color: #deb887;
+}
+
+/* /////// lbase ///////// */
+.lbase>div {
+    width: 460px;
+    height: 100px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.lbase ul>.li1 {
+    float:left;
+    padding: 0px 10px;
+    background-color: #a9a9a9;
+}
+.lbase ul>.li1:hover {
+    color: red;
+}
+
+.lbase ul>.li2 {
+    display: inline;
+    padding: 10px;
+    background-color: #bdb76b;
+}
+.lbase ul>.li2:hover {
+    background-color: #006400;
+    color: white;
+}
+
+.lbase ul>.li3 {
+    display: inline;
+}
+.lbase ul>.li3 a {
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #8fbc8f;
+}
+.lbase ul>.li3 a:hover {
+    background-color: #7fffd4;
+    color: black;
+}
+
+/* /////// rbase ///////// */
+.rbase .base4 {
+    width: 460px;
+    height: 100px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.rbase .base4 ul {
+    background-color: #6495ed;
+}
+.rbase .base4 ul li {
+    display: inline;
+    padding: 10px 10px;    
+    background-color: #6495ed;
+}
+.rbase .base4 ul li:nth-child(4) {
+    float: right;
+    padding: 0px 10px;
+}
+.rbase .base4 ul li:hover {
+    background-color: #00008b;
+    color: white;
+}
+
+/* /////// base5 ///////// */
+.rbase .base5 {
+    width: 460px;
+    height: 260px;
+    padding: 10px;
+    background-color: white;
+}
+.rbase .base5 ul {
+    background-color: lightsalmon;
+    overflow: hidden;
+}
+.rbase .base5 ul li {
+    float: left;
+    padding: 0px 10px;    
+}
+.rbase .base5 ul li:hover {
+    background-color: #dc143c;
+    color: white;
+}
+.rbase .base5 ul li:hover .dropmenu {
+    display: block;
+}
+.rbase .base5 ul li .dropmenu {
+    display: none;
+    position: absolute;
+    min-width: 130px;
+    z-index: 1;
+    background-color: #ffe4c4;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.rbase .base5 ul li .dropmenu a {
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+.rbase .base5 ul li .dropmenu a:hover {
+    background-color: gold;
+    color: #8b4513;
+}

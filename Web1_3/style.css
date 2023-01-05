@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+}
+
+header {
+  width: 100%;
+  background-color: yellow;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+header .innerbox {
+  width: 1180px;
+  height: 120px;
+  /* align-content: center; */
+  background-color: yellowgreen;
+}
+header .innerbox .utility_bar {
+  height: 40px;
+  background-color: violet;
+}
+header .innerbox .utility_bar li {
+  padding: 10px;
+  float: right;
+}
+
+header h1 {
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+}

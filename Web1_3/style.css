@@ -28,9 +28,13 @@ header .innerbox .utility_bar {
   height: 40px;
   background-color: violet;
 }
+header .innerbox .utility_bar ul {
+  float:right;
+}
 header .innerbox .utility_bar li {
   padding: 10px;
-  float: right;
+  float: left;
+  font-size: 15px;
 }
 
 header .innerbox h1 {
@@ -39,4 +43,46 @@ header .innerbox h1 {
   left: 10px;
   bottom: 15px;
   background-color: aquamarine;
+}
+
+header .innerbox .navigation_bar {
+  display: inline-block;
+  position: absolute;
+  right:0px;
+  bottom:0px;
+  background-color: beige;
+}
+header .innerbox .navigation_bar ul {
+  float: right;
+}
+header .innerbox .navigation_bar li {
+  padding: 20px;
+  float:left;
+  font-size: 18px;
+}
+header .innerbox .navigation_bar li a:hover{
+  color: red;
+}
+
+
+/* /////////////  MAIN   /////////////////// */
+.mainImg {
+  width: 100%;
+  height: 590px;
+  background-image: url(bg_main.png);
+}
+.mainImg .innerbox {
+  margin: 0px auto;
+  width: 800px;
+  height: 300px;
+  background-color: blueviolet;
+  top:150px;
+  position: relative;  
+}
+.mainImg .innerbox .title {  
+  font-size: 80px;
+  color: white;  
+}
+.mainImg .innerbox .content {
+  color: white;
 }

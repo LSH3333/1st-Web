@@ -1,13 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Verdana,Geneva,sans-serif; 
-}
-
-header {
-  width: 100%;
-  /* height: 120px; */
-  background-color: yellow;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 ul {
@@ -15,6 +9,12 @@ ul {
 }
 a {
   text-decoration: none;
+}
+
+header {
+  width: 100%;
+  /* height: 120px; */
+  background-color: yellow;
 }
 
 header .innerbox {
@@ -29,7 +29,7 @@ header .innerbox .utility_bar {
   background-color: violet;
 }
 header .innerbox .utility_bar ul {
-  float:right;
+  float: right;
 }
 header .innerbox .utility_bar li {
   padding: 10px;
@@ -48,8 +48,8 @@ header .innerbox h1 {
 header .innerbox .navigation_bar {
   display: inline-block;
   position: absolute;
-  right:0px;
-  bottom:0px;
+  right: 0px;
+  bottom: 0px;
   background-color: beige;
 }
 header .innerbox .navigation_bar ul {
@@ -57,13 +57,12 @@ header .innerbox .navigation_bar ul {
 }
 header .innerbox .navigation_bar li {
   padding: 20px;
-  float:left;
+  float: left;
   font-size: 18px;
 }
-header .innerbox .navigation_bar li a:hover{
+header .innerbox .navigation_bar li a:hover {
   color: red;
 }
-
 
 /* /////////////  MAIN IMG  /////////////////// */
 .mainImg {
@@ -76,12 +75,12 @@ header .innerbox .navigation_bar li a:hover{
   width: 800px;
   height: 300px;
   background-color: blueviolet;
-  top:150px;
-  position: relative;  
+  top: 150px;
+  position: relative;
 }
-.mainImg .innerbox .title {  
+.mainImg .innerbox .title {
   font-size: 80px;
-  color: white;  
+  color: white;
 }
 .mainImg .innerbox .content {
   color: white;
@@ -95,5 +94,35 @@ section {
   background-color: yellow;
 }
 section h2 {
-  
+  text-align: center;
+  background-color: orange;
+  padding: 40px;
+}
+
+/* /////////////  FOOTER  /////////////////// */
+footer {
+  width: 100%;
+}
+footer .innerbox {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+}
+footer .innerbox h1 {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  background-color: aquamarine;
+}
+footer .innerbox ul {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  float: right;
+  background-color: plum;
+}
+footer .innerbox ul li {
+  float: left;
+  padding: 10px;
 }

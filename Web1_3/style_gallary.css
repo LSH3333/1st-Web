@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* /////////////  HEADER  /////////////////// */
+header {
+  width: 100%;
+  background-color: yellow;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+header .innerbox {
+  position: relative;
+  margin: 0px auto;
+  width: 1180px;
+  height: 120px;
+  /* background-color: yellowgreen; */
+}
+header .innerbox .utility_bar {
+  height: 40px;
+  /* background-color: violet; */
+}
+header .innerbox .utility_bar ul {
+  float: right;
+}
+header .innerbox .utility_bar li {
+  padding: 10px;
+  float: left;
+  font-size: 15px;
+}
+header .innerbox .utility_bar a {
+  color: #8b8b8b;
+}
+header .innerbox h1 {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  color: rgb(65, 65, 65);
+  /* background-color: aquamarine; */
+}
+header .innerbox .navigation_bar {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  /* background-color: beige; */
+}
+header .innerbox .navigation_bar ul {
+  float: right;
+}
+header .innerbox .navigation_bar li {
+  padding: 20px 0px 20px 50px;
+  float: left;
+  font-size: 18px;
+}
+header .innerbox .navigation_bar li a {
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+}
+header .innerbox .navigation_bar li a:hover {
+  color: red;
+}
+
+/* /////////////  SECTION  /////////////////// */
+section {
+  width: 1000px;
+  height: 500px;
+  margin: 0px auto;
+  padding-top: 120px;
+}
+section article {
+  position: relative;
+  float: left;
+}
+section article h1 {
+  color: white;
+  font-size: x-large;
+  position: absolute;
+}
+
+section .article1 {
+  width: 700px;
+  height: 400px;
+  margin: 0px 5px 5px 0px;
+  background-image: url(700x400.png);
+}
+section .article1 h1 {
+  right: 10px;
+  bottom: 10px;
+}
+section .article2 {
+  width: 290px;
+  height: 190px;
+  margin: 0px 0px 5px 5px;
+  background-image: url(290x190.png);
+}
+section .article2 h1 {
+  top: 50px;
+  left: 10px;
+}
+section .article3 {
+  width: 290px;
+  height: 95px;
+  margin: 5px 0px 5px 5px;
+}
+section .article3 h1 {
+  right: 10px;
+  bottom: 20px;
+}
+section .article4 {
+  width: 490px;
+  height: 240px;
+  margin: 5px 5px 5px 0px;
+}
+section .article4 #article4-1 {
+  width: 300px;
+  font-size: small;
+  color: black;
+  font-weight: normal;
+  top: 160px;
+}
+section .article5 {
+  width: 500px;
+  height: 490px;
+  margin: 5px 0px 5px 5px;
+  background-image: url(500x490.png);
+  float: right;
+}

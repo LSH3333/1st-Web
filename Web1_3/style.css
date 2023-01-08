@@ -96,6 +96,15 @@ section h2 {
   padding: 40px;
 }
 
+article {
+  margin: 20px;
+  float: left;
+  background-color: orchid;
+}
+article h1 {
+  margin: 5px 0px;
+}
+
 /* /////////////  FOOTER  /////////////////// */
 footer {
   width: 100%;

@@ -13,11 +13,12 @@ a {
 /* /////////////  HEADER  /////////////////// */
 header {
   width: 100%;
-  background-color: yellow;
+  background-color: white;
   position: fixed;
   top: 0px;
   left: 0px;
   z-index: 1;
+  border-bottom: 1px solid black;
 }
 header .innerbox {
   position: relative;
@@ -129,6 +130,13 @@ section .article4 #article4-1 {
   color: black;
   font-weight: normal;
   top: 160px;
+  left: 95px;
+}
+section .article4 #article4-2 {
+  right: 20px;
+  bottom: 30px;
+  font-size: 30px;
+  color: gold;
 }
 section .article5 {
   width: 500px;
@@ -136,4 +144,39 @@ section .article5 {
   margin: 5px 0px 5px 5px;
   background-image: url(500x490.png);
   float: right;
+}
+section .article6 {
+  width: 1000px;
+  height: 371px;
+  margin: 5px 0px;
+  background-image: url(1000x371.png);
+}
+section .article6 h1 {
+  font-size: 50px;
+  width: 684.52px;
+  height: 61px;
+  top: 50%;
+  left: 50%;
+  margin-left: calc(-1 * calc(684.52px / 2));
+  margin-top: calc(-1 * calc(61px / 2));
+  text-shadow: 5px -5px 2px black;
+}
+section .article7 {
+  width: 1000px;
+  height: 361px;
+  background-image: url(1000x361.png);
+  margin: 5px 0px;
+}
+section .article7 div {
+  position: absolute;
+  width: 450px;
+  height: 150px;
+  right: 30px;
+  bottom: 40px;
+  color: white;
+  font-size: 20px;
+  line-height: 200%;
+}
+section .article7 div span {
+  font-size: 30px;
 }

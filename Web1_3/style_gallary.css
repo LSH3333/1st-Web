@@ -50,6 +50,9 @@ header .innerbox h1 {
   color: rgb(65, 65, 65);
   /* background-color: aquamarine; */
 }
+header .innerbox h1 a {
+  color: rgb(65, 65, 65);
+}
 header .innerbox .navigation_bar {
   display: inline-block;
   position: absolute;

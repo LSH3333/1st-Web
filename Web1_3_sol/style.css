@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* width, height에 border, padding 값 포함됨  */
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+/* ////////// HEADER ///////////// */
+header .inner {
+  width: 1180px;
+  height: 120px;
+  margin: 0px auto;
+  position: relative;
+}
+header .inner h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+header .inner h1 a {
+  font: bold 24px/1 "verdana";
+  color: #444;
+}

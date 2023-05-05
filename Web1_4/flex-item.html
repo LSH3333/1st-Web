@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="flex-item.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="base">
+        <div> <!-- base box (L)  -->
+            <div>
+                <div>1<br>order(0)</div>
+                <div>2<br>order(0)</div>
+                <div>3<br>order(0)</div>
+                <div>4<br>order(0)</div>
+            </div>
+            <div>
+                <div style="order: 1;">1<br>order(1)</div>
+                <div style="order: 10;">2<br>order(10)</div>
+                <div>3<br>order(0)</div>
+                <div style="order: -2;">4<br>order(-2)</div>
+            </div>
+        </div>
+        <div> <!-- base box (R)-->
+            <div>
+                <div style="flex-grow: 1">1<br>grow(1)</div>
+                <div>2<br>grow(0)</div>
+                <div>3<br>grow(0)</div>
+            </div>
+            <div>
+                <div style="flex-grow: 1">1<br>grow(1)</div>
+                <div>2<br>grow(0)</div>
+                <div style="flex-grow: 2">3<br>grow(2)</div>
+            </div>
+            <div>
+                <div style="flex-grow: 3">1<br>grow(3)</div>
+                <div style="flex-grow: 0">2<br>grow(0)</div>
+                <div style="flex-grow: 6">3<br>grow(6)</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

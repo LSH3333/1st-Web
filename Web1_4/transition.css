@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "verdana";
+}
+#base {
+    width: 1000px;
+    padding: 10px;
+    background: lightgray;
+    margin: 50px auto; 
+    display: flex;
+}
+#base div {
+    width: 480px;
+    height: 480px;
+    padding: 10px;
+    background: beige;
+}
+#base div div {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    background: lightsalmon;
+}
+#base div .type1:hover {
+    width: 460px;
+    background: lightgreen;
+    transition: all;
+    transition-duration: 1s;
+}
+#base div.type2:hover {
+    width: 460px;
+    background: lightgreen;
+    transition: width 1s;
+}
+#base div .type3:hover {
+    width: 460px;
+    background: lightgreen;
+    transition-duration: 3s;
+}
+
+#base div .type4:hover {
+    width: 460px;
+    background: lightgreen;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+#base div.type5:hover {
+    width: 460px;
+    background-color: lightgreen;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+/* 해당 구성 요소에 변화가 생길때마다 전이 속성이 반영됨 */
+#base div div.type6 {
+    transition-duration: 1s;
+}
+#base div .type6:hover {
+    width: 460px;
+    background: lightgreen;
+    /* transition-duration: 1s; */
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="flex-basis.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="base">
+        <div> <!-- beige box (L)-->
+            <div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+            </div>
+            <div>
+                <div>1</div>
+                <div>2</div>
+                <div style="flex-shrink:0; background:pink;">3</div>
+                <div>4</div>
+                <div style="flex-shrink:2; background:red;">5</div>
+                <div>6</div>
+            </div>
+        </div>
+        <div> <!-- beige box (R)-->
+            <div>
+                <div class="basis1" style="flex-grow:2">1st Item</div>
+                <div class="basis1" style="flex-grow:3">2nd</div>
+                <div class="basis1" style="flex-grow:1">3rd Flex-Item</div>
+            </div>
+            <div>
+                <div class="basis2" style="flex-grow:2">1st Item</div>
+                <div class="basis2" style="flex-grow:1">2nd</div>
+                <div class="basis2" style="flex-grow:3">3rd Flex-Item</div>
+            </div>
+            <div>
+                <div class="basis3" style="flex-grow:1">1st Item</div>
+                <div class="basis3" style="flex-grow:1">2nd</div>
+                <div class="basis3" style="flex-grow:3">3rd Flex-Item</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

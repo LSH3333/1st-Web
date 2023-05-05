@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "verdana";
+}
+#base {
+    width: 1000px;
+    padding: 10px;
+    background: lightgray;
+    margin: 50px auto; 
+    display: flex;
+}
+#base>div {
+    width:480px;
+    height: 480px;
+    padding:10px;
+    background: beige;
+}
+#base>div>div {
+    width: 100px;
+    height: 100px;
+    margin:10px 0;
+    background:lightsalmon;
+    transition-duration: 1s;
+}
+#base>div>div:hover {
+    width: 460px;
+    background:lightsalmon;
+}
+#base>div .linear:hover {
+    transition-timing-function: linear;
+}
+#base>div .ease:hover {
+    transition-timing-function: ease;
+}
+#base>div .ease-in:hover {
+    transition-timing-function: ease-in;
+}
+#base>div .ease-out:hover {
+    transition-timing-function: ease-out;
+}
+#base>div .ease-in-out:hover {
+    transition-timing-function: ease-in-out;
+}

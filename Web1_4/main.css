@@ -1,0 +1,57 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#base {
+    width:1000px; height:500px; margin:50px auto;
+    background-color: lightgray;
+}
+
+.ubase {
+    width: 960px; height:210px; margin:10px; padding:10px;
+    float:left; 
+    background-color: beige;
+    position: relative;
+}
+.ubase .box1 {
+    /* default */
+    box-sizing: content-box; 
+    width: 320px; height: 210px;
+    float: left; background-color: #87CEFA;
+}
+.ubase .box2 {
+    width: 300px; height: 190px; padding: 10px;
+    background-color: #90ee90;
+    float: left;
+}
+.ubase .box3 {
+    width: 280px; height: 170px; padding: 10px; border: 10px dashed orange;
+    float: left; background-color: #ffb6c1;
+}
+
+.dbase {
+    width: 960px; height: 210px; margin:10px; padding:10px;
+    float:left; background-color: lavender;
+}
+.dbase .box1 {
+    box-sizing: border-box;
+    width: 320px; height: 210px;
+    float : left;
+    background-color: #87cefa;
+}
+.dbase .box2 {
+    box-sizing: border-box;
+    width: 320px;
+    height: 210px;
+    padding: 10px;
+    float: left;
+    background-color: #90ee90;
+}
+.dbase .box3 {
+    box-sizing: border-box;
+    width: 320px; height: 210px;
+    padding: 10px; border:10px dashed orange;
+    float: left; background-color: #ffb6c1;
+}

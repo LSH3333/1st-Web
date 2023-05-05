@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "verdana";
+}
+
+#base {
+    width: 1000px;
+    padding: 10px;
+    background: lightgray;
+    margin: 50px auto;
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 480px;
+    background: beige;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    margin-left: 20px;
+    background: beige;
+}
+
+.item {
+    width: 130px;
+    height: 130px;
+    background: lightsalmon;
+    border: 2px dotted red;
+    padding: 10px;
+}
+

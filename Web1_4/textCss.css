@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "verdana";
+}
+
+#base {
+    width: 1000px;
+    height: 500px;
+    padding: 10px;
+    background: lightgray;
+    margin: 50px auto;
+}
+
+#base>div {
+    width: 480px;
+    height: 480px;
+    float: left;
+    padding: 10px;
+    background: beige;
+}
+
+#base>div>div {
+    background: lavender;
+    margin: 5px 0;
+}
+
+#base>div>.type1 p {
+    line-height: 30px;
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+#base>div>.type2 p {
+    line-height: 50px;
+    color: #f08080;
+    text-decoration-line: overline;
+    text-decoration-color: #ff0000;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+    text-align: center;
+}
+
+#base>div>.type3 p {
+    line-height: 70px;
+    color: rgb(128, 0, 128);
+    text-decoration-line: line-through;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(128, 0, 128);
+    text-align: right;
+}
+
+#base>div>.type4 p {
+    line-height: 90px;
+    color: #0a0;
+    text-decoration-line: underline overline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #0a0;
+    text-align: left;
+}

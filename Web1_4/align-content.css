@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "verdana";
+}
+
+#base {
+    width: 1000px;
+    padding:10px;
+    background: lightgray;
+    margin: 50px auto;
+    display: flex;
+}
+
+.container1 {
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: beige;
+}
+
+.container1 div {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border: 1px dotted red;
+    background: lightsalmon;
+}
+/* align-content: stretch 때문에 line 의 높이가 stretch 됨 */
+.container2 {
+    width: 300px;
+    height: 480px;
+    padding: 10px; 
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: beige;
+}
+
+.container2 div {
+    width: 80px;
+    /* height 없음 = 부모 container 에 맞춰짐  */
+    padding: 10px;
+    border: 1px dotted red;
+    background: lightsalmon;
+}
+
+.container3 {
+    width: 300px;
+    height: 480px;
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: beige;
+}
+
+.container3 div {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border: 1px dotted red;
+    background: lightsalmon;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "verdana";
+}
+#base {
+    width: 1000px;
+    display: flex;
+    /* height: auto */
+    flex-wrap: wrap;
+    background: lightgray;
+    margin:50px auto;
+}
+#base>div {
+    width:150px;
+    height:200px;
+    margin:10px 0 10px 10px;
+    padding:10px;
+    background: beige;
+}
+#base>div>div {
+    width: 100px;
+    height: 100px;
+    margin:10px 0;
+    background: lightsalmon;
+    border: 1px dotted red;
+    transition-duration: 0.5s;
+}
+
+#base>div>.item01:hover {
+    transform: translate(20px,20px);
+}
+#base>div>.item02:hover {
+    transform: translateX(20px);
+}
+#base>div>.item03:hover {
+    transform: translateY(20px);
+}
+#base>div>.item04:hover {
+    transform: scale(1.2, 0.8);
+}
+#base>div>.item05:hover {
+    transform: scaleX(0.8);
+}
+#base>div>.item06:hover {
+    transform: scaleY(1.2);
+}
+
+#base>div>.item07:hover {
+    transform: rotate(-50deg);
+}
+#base>div>.item08:hover {
+    transform: rotate(50deg);
+}
+#base>div>.item09:hover {
+    transform: skew(10deg, 10deg);
+}
+#base>div>.item10:hover {
+    transform: skewX(-10deg);
+}
+#base>div>.item11:hover {
+    transform: skewY(-10deg);
+}
+#base>div>.item12:hover {
+    transform: matrix(1.2, -0.3, 0, 1.2, 20, 20);
+}

@@ -1,44 +1,169 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <style>
-            #top {
-                width: 1000px;
-                height: 500px;
-                background-color: red;
-            }
-            .top_left {
-                border-top: 1px solid transparent;
-                display: inline-block;
-                width: 750px;
-                height: 500px;
-                background-color: blue;
-            }
-            .top_left div {
-                margin-top: 250px;
-                background-color: yellow;
-                width: 250px;
-                height: 250px;
-            }
-            .top_right {
-                display: inline-block;
-                width: 250px;
-                height: 500px;
-                background-color: green;
-            }
-            
-        </style>
-    </head>
 
-    <body>
-        <div id="top">
-            <div class="top_left">
-                <div>
-                    hello world!
-                </div>
-            </div><div class="top_right"></div>                        
+<head>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* width, height에 border, padding 값 포함됨  */
+            box-sizing: border-box;
+        }
+
+        .contents {
+            /* footer 아래 위치하도록 최소 높이 보장 */
+            min-height: 700px;
+            margin-left: 245px;
+            padding: 0 5px;
+        }
+
+
+        /* page Block */
+        .pageBlock {
+            /* background-color: brown; */
+            display: flex;
+            height: 250px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid black;
+        }
+
+        .pageBlock .imgBlock {
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width: 300px; */
+            height: 230px;
+        }
+
+        .pageBlock .imgBlock .img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .pageBlock .titleAndContentContainer {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .pageBlock .titleAndContentContainer .title {
+            /* background-color: beige; */
+            height: 50px;
+            width: 100%;
+            line-height: 50px;            
+        }
+
+        .pageBlock .titleAndContentContainer .title a {
+            /* background-color: red; */
+            width: 100%;
+            height: 100%;
+        }
+
+        .pageBlock .titleAndContentContainer .content {
+            /* background-color: aquamarine; */
+            height: 180px;
+            width: 100%;
+        }
+
+
+        /* side tab */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "verdana";
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .side-tab {
+            /* background-color: beige; */
+            position: fixed;
+            height: 100%;
+            width: 245px;
+            padding-inline: 12.5px;
+            border-right: 1px solid darkgray;
+        }
+
+        .side-tab .logo {
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 92px;
+        }
+
+        .side-tab .logo p {
+            font-size: large;
+        }
+
+        .side-tab .menus {
+            /* background-color: aqua; */
+            width: 100%;
+            height: 782px;
+        }
+
+        .side-tab .menus div {
+            /* background-color: aquamarine; */
+            width: 100%;
+            height: 56px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .side-tab .menus div i {
+            margin: 0 5px;
+        }
+
+        .side-tab .menus div a {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="side-tab">
+        <div class="logo">
+            <p>Instagram</p>
         </div>
-       
-    </body>
+        <div class="menus">
+            <div><i class="fa-solid fa-house"></i><a href="#">HOME</a></div>
+            <div><i class="fa-solid fa-house"></i><a href="#">HOME</a></div>
+            <div><i class="fa-solid fa-house"></i><a href="#">HOME</a></div>
+            <div><i class="fa-solid fa-house"></i><a href="#">HOME</a></div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="pageBlock">
+            <a href="" class="imgBlock"><img src="../Web1_3_sol/article1.png" alt=""></a>
+            <div class="titleAndContentContainer">
+                <h2 class="title"><a>This is title</a></h2>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sed vel
+                    necessitatibus
+                    animi. Incidunt accusamus accusantium, nulla corrupti consequatur eaque rerum vitae earum impedit,
+                    doloremque libero veritatis molestias voluptatem ex possimus vero voluptate praesentium alias veniam
+                    ipsa quaerat placeat officiis tempore? Voluptatum pariatur dolorem vitae, voluptas quae molestiae
+                    fugit
+                    odit.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
 </html>
